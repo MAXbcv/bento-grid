@@ -1,0 +1,409 @@
+@font-face {
+    font-family: 'DMSans';
+    src: url(assets/fonts/static/DMSans-Medium.ttf)format(truetype);
+}
+
+@font-face {
+    font-family: 'DM Sans 14pt Meduim';
+    src: url(./assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf)format(truetype);
+}
+
+body {
+    background-color: hsl(252, 15%, 94%);
+    width: 1500px;
+}
+
+#all {
+    width: 928px;
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 20px;
+    margin: auto;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+}
+
+#Social {
+    text-align: center;
+    row-gap: 9px;
+    width: 305px;
+    height: 150px;
+    border: 1px;
+    background-color: hsl(256, 67%, 59%);
+    padding: 30px;
+
+}
+
+.h1_Social,
+.h1_faster {
+    font-size: 36px;
+
+}
+
+.h1_Social {
+    color: hsl(0, 0%, 100%);
+    margin: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+mark {
+    color: hsl(39, 100%, 71%);
+    background-color: hsl(256, 67%, 59%);
+}
+
+span {
+    font-family: 'DM Sans 14pt Meduim', sans-serif;
+}
+
+.etoil {
+    margin-left: 66px;
+    width: 183px;
+}
+
+.petoil {
+    color: hsl(254, 88%, 90%);
+}
+
+/*#grille{
+
+    display: grid;
+    grid-template-columns: repeat(2 ,240px);
+    gap: 50px;
+    border: 1px;
+}*/
+#Manage {
+    row-gap: 15px;
+    width: 129px;
+    height: 145px;
+
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px;
+}
+
+.h1_Manage,
+.h1_Maintain,
+.h2_Schedule,
+.h2_grow {
+    font-size: 20px;
+    color: hsl(0, 0%, 7%);
+    margin: 0;
+}
+
+.h2_grow {
+    margin-top: 10px;
+}
+
+.h1_faster {
+    margin: 0;
+}
+
+.p_faster {
+    margin-top: 0;
+}
+
+.multiple-platforms {
+    width: 209px;
+}
+
+#Maintain {
+    row-gap: 15px;
+    padding: 25px;
+    width: 115px;
+    height: 145px;
+    background-color: hsl(39, 100%, 71%);
+}
+
+.consistent-schedule {
+    width: 117px;
+}
+
+#Schedule {
+
+    row-gap: 20px;
+    width: 155px;
+    height: 385px;
+    padding: 20px;
+
+
+    background-color: hsl(254, 88%, 90%);
+}
+
+.schedule-posts {
+    width: 278px;
+    height: 205px;
+}
+
+.p_schedule {
+
+
+    margin: 0;
+}
+
+.p_faster,
+.p_schedule {
+    color: hsl(0, 4%, 41%);
+}
+
+.p_schedule,
+.p_faster {
+    font-size: 14px;
+}
+
+#Grow {
+    display: flex;
+    column-gap: 10px;
+    width: 351px;
+    padding: 15px;
+    border: 1px;
+    background-color: hsl(256, 67%, 59%);
+    font-family: 'DMSans', sans-serif;
+}
+
+.grow-followers {
+    width: 315px;
+    height: 116px;
+}
+
+.h2_grow {
+    color: hsl(0, 0%, 100%);
+}
+
+#faster {
+
+    width: 161px;
+
+    padding: 10px;
+
+    background-color: hsl(0, 0%, 100%);
+}
+
+.p_faster {
+
+    margin-bottom: 15px;
+}
+
+.audience-growth {
+    width: 100px;
+}
+
+#Create {
+
+    row-gap: 15px;
+    padding: 20px;
+
+    background-color: hsl(31, 66%, 93%);
+
+    height: 237px;
+}
+
+.h2_Create,
+.h1_Write {
+    margin: 0;
+    font-size: 25px;
+}
+
+.quicker {
+    color: hsl(256, 67%, 59%);
+}
+
+.create-post {
+    width: 163px;
+}
+
+#Write {
+
+    row-gap: 15px;
+    padding: 20px;
+    background-color: hsl(39, 100%, 71%);
+
+}
+
+.ai-content {
+    width: 171px;
+    height: 141px;
+}
+
+#Create,
+#Write {
+    width: 163px;
+}
+
+#Social,
+#Manage,
+#Maintain,
+#Schedule,
+#faster,
+#Create,
+#Write {
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'DMSans', sans-serif;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#grid0 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#grid1 {
+    display: flex;
+    column-gap: 20px;
+}
+
+#grid1_1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#grid1_2 {
+
+    display: flex;
+    column-gap: 20px;
+}
+
+#grid2 {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 20px;
+    width: 580px;
+}
+
+#grid3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+@media screen and (max-width:375px) {
+    body {
+        width: 500px;
+    }
+
+    #all,
+    #Social,
+    #Manage,
+    #Maintain,
+    #Schedule,
+    #faster,
+    #Create,
+    #Write,
+    #Grow,
+    #grid1_2,
+    #grid1_1,
+    #grid1,
+    #grid0,
+    #grid2,
+    #grid3 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        border-radius: 8px;
+    }
+
+    #all {
+        width: 280px;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    #Social {
+        text-align: center;
+        row-gap: 9px;
+        width: 235px;
+        height: 210px;
+        border: 1px;
+        background-color: hsl(256, 67%, 59%);
+        padding: 20px;
+
+    }
+
+    .etoil {
+        margin-left: 30px;
+        width: 183px;
+    }
+
+
+    #Manage {
+        row-gap: 15px;
+        width: 235px;
+        padding: 20px;
+        background-color: hsl(0, 0%, 100%);
+        
+        height: auto;
+    }
+
+    .multiple-platforms {
+        width: 257px;
+    }
+    .h1_Manage,.h2_Schedule{
+        font-size: 19px;
+        margin: 0;
+    }
+    #Maintain {        
+        width: 235px;
+        padding: 20px;
+        row-gap: 15px;
+        width: 235px;
+        background-color: hsl(39, 100%, 71%);
+    }
+
+    .consistent-schedule {
+        width: 155px;
+    }
+
+    #Schedule {
+        row-gap: 20px;
+        width: 235px;
+        height: auto;
+        padding: 20px;
+        background-color: hsl(254, 88%, 90%);
+    }
+
+    .p_schedule{
+        text-align: center;
+    }
+
+    .schedule-posts {
+        width: 236px;
+    }
+    #Grow{
+        text-align: center;
+        width: 215px;
+        padding: 30px;
+    }
+    .grow-followers{
+        width: 170px;
+        margin-left: 30px;
+    }
+    #faster{
+        row-gap: 15px;
+        width: 235px;
+        padding: 20px;
+    }
+    .p_faster{
+        margin: 0;
+    }
+    #Create{
+        width: 235px;
+        padding: 20px;
+        height: auto;
+    }
+    .h2_Create{
+        font-size: 20px;
+    }
+    #Write{
+        width: 235px;
+        padding: 20px;
+        height: auto;
+    }
+}
